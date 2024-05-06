@@ -1,0 +1,58 @@
+
+.container{
+    background-color: #d1c7c7;
+}
+
+ .content h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+     background-color: #464545;
+     font-size: 20px;
+     text-align: center;
+     color: rgb(226, 231, 225);
+     border: 3px solid #96bdbf;
+     border-radius: 20px;
+     margin: 0 auto;
+
+}
+.content img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 50% 50%;
+    display: block;
+    margin:  0 auto;
+    
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    
+    width: 30%;
+}
+
+
+@media only screen and (max-width:200px){
+    .container{
+        width: 90%;
+        margin:  0 auto;
+        font-size: 0 auto;
+
+    }
+}
+
+@media only screen and (min-width:201px) and (max-width:1024px){
+    .container{
+        width: 80%;
+        margin:  0 auto;
+        font-size: 0 auto;
+    }
+}
+@media only screen and (min-width:1025px){
+    .container{
+        width: 70%;
+        margin:  0 auto;
+        font-size: 0 auto;
+    }
+}
+
